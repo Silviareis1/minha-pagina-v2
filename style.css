@@ -1,0 +1,159 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #F4F4F4;
+   color: #333333;
+}
+
+main {
+   max-width: 900px;
+   /* Largura máxima desejada */
+   margin: 0 auto;
+
+}
+
+h2 {
+   padding-bottom: 10px;
+}
+
+header {
+   background-color: #333333;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   position: fixed;
+   width: 100%;
+   top: 0;
+}
+
+section {
+   background-color: #ffffff;
+   border: 1px solid #DDDDDD;
+   border-radius: 5px;
+   padding: 20px;
+   margin-bottom: 10px;
+}
+
+#sobre {
+   margin-top: 100px;
+   text-align: center;
+}
+
+#sobre img {
+   width: 300px;
+   border-radius: 5px;
+}
+
+
+li {
+   margin-bottom: 5px;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+
+.tabela-topo {
+   background-color: #022953;
+   /* background-color: #333333; */
+   color: #ffffff;
+   text-align: center;
+   font-weight: bold;
+
+}
+
+tr:nth-child(even) {
+   background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+   background-color: #f1f1f1;
+}
+
+th {
+   padding: 12px 15px;
+   border-bottom: 5px double #135030;
+}
+
+td {
+   padding: 12px 15px;
+   text-align: left;
+   border-bottom: 1px solid #DDDDDD;
+}
+
+
+td.status-concluido {
+   color: #28a745;
+   /* Verde para concluído */
+   font-weight: bold;
+}
+
+td.status-andamento {
+   color: #ffc107;
+   /* Amarelo para em andamento */
+   font-weight: bold;
+}
+
+td.status-planejado {
+   color: #6c757d;
+   /* Cinza para planejado */
+   font-weight: bold;
+}
+
+.observacoes {
+   font-size: 0.9em;
+   color: #666;
+}
+
+label {
+   /* display: block; */
+   /*um embaixo do outro organizando*/
+   margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border: 1px solid #DDDDDD;
+   border-radius: 5px;
+}
+
+button {
+   padding: 10px 15px 10px 15px;
+   font-size: 16px;
+   background-color: #333333;
+   color: #ffffff;
+   border: 0;
+   border-radius: 5px;
+}
+
+button:hover {
+   background-color: #ba0909;
+   color: #fff;
+}
+
+footer {
+   text-align: center;
+   background-color: #333333;
+   color: #ffffff;
+   padding: 20px;
+
+}
+
+footer nav a {
+   color: #ffffff;
+}
+
+footer p {
+   padding: 10px;
+}
