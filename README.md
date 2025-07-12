@@ -10,6 +10,7 @@ Este projeto é a **segunda versão** do portfólio desenvolvido durante o curso
 ## 🛠️ Sobre esta versão (v2)
 
 Esta nova versão traz melhorias no layout, na organização do código e na apresentação dos conteúdos. É uma continuação direta da versão original e demonstra a evolução no aprendizado de HTML, CSS e outras tecnologias abordadas durante o curso.
+![Preview do Portfólio](./images/portifolio-preview.png)
 
 ## 🔗 Primeira versão do projeto
 
